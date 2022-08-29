@@ -35,6 +35,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+.navbar ul li a:hover {
+    color: rgb(245, 0, 0);
+    transition: 0.5s;
+}
 .navbar ul li::before{
     content: "";
     height: 3px;
@@ -47,4 +51,16 @@
 }
 .navbar ul li:hover::before {
     width: 100%;
+}
+div .welcome {
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    margin: 200px 50px;
+    padding: 50px 140px;
+    color: yellow;
+}
+div .welcome:hover {
+    color: rgb(8, 8, 8);
+    transition: 0.5s;
 }
